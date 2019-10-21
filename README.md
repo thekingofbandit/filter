@@ -1,3 +1,5 @@
+![Screenshot](2019-10-21_17-53.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -67,51 +69,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-
-
-### Step to rebuild
-yarn add firebase-tools --dev; # npm install firebase-tools --dev;
-./node_modules/firebase-tools/lib/bin/firebase.js init;
-
-◯ Database: Deploy Firebase Realtime Database Rules
- ◯ Firestore: Deploy rules and create indexes for Firestore
- ◯ Functions: Configure and deploy Cloud Functions
-❯◉ Hosting: Configure and deploy Firebase Hosting sites
- ◯ Storage: Deploy Cloud Storage security rules
-
-
- ❯ Use an existing project 
-  Create a new project 
-  Add Firebase to an existing Google Cloud Platform project 
-  Don't set up a default project
-
-  ? Configure as a single-page app (rewrite all urls to /index.html)? (y/N) y
-
-Press n and then Enter:
-
-? File public/index.html already exists. Overwrite? (y/N) n
-
-In your repository you’ll see two new files:
-
-.firebaserc
-firebase.json
-
-I’m going to add .firebaserc to .gitignore so that this repository is not bound to one firebase project, if needed.
-
-File: .firebaserc.example
-
-{
-  "projects": {
-    "default": "[YOUR-PROJECT-ID]"
-  }
-}
-
-https://websignstudio.firebaseapp.com/
-https://medium.com/@mannycodes/deploy-react-to-firebase-with-circleci-b8f16c17a28c
-https://circleci.com/gh/thekingofbandit/my-app/edit#env-vars
-
-yarn run build
-
-pull request from development to master 
-
-merge pull request to master
