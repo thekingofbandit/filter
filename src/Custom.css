@@ -1,0 +1,110 @@
+
+.box,
+button {
+  font-family: 'Open Sans', sans-serif;
+  border: 1px solid grey;
+  border-radius: 3px;
+  padding: .5rem;
+  margin: .15rem;
+  background-color: rgba(0, 20, 50, 0.05);
+  font-size: 1rem;
+  min-width:10rem;
+}
+
+.category--fashion,
+.btn-fashion {
+  background-color: orange;
+}
+
+.category--design,
+.btn-design {
+  background-color: green;
+  color: white;
+}
+
+.category--leisure,
+.btn-leisure {
+  background-color: purple;
+  color: white;
+}
+
+.category--entertainment,
+.btn-entertainment {
+  background-color: pink;
+}
+
+.category--Black, .btn-Black {   background-color: #000000; }
+.category--Maroon, .btn-Maroon {   background-color: #800000; }
+.category--Green, .btn-Green {   background-color: #008000; }
+.category--Olive, .btn-Olive {   background-color: #808000; }
+.category--Navy, .btn-Navy {   background-color: #000080; }
+.category--Purple, .btn-Purple {   background-color: #800080; }
+.category--Teal, .btn-Teal {   background-color: #008080; }
+.category--Silver, .btn-Silver {   background-color: #c0c0c0; }
+.category--Grey, .btn-Grey {   background-color: #808080; }
+.category--Red, .btn-Red {   background-color: #ff0000; }
+.category--Lime, .btn-Lime {   background-color: #00ff00; }
+.category--Yellow, .btn-Yellow {   background-color: #ffff00; }
+.category--Blue, .btn-Blue {   background-color: #0000ff; }
+.category--Fuchsia, .btn-Fuchsia {   background-color: #ff00ff; }
+.category--Aqua, .btn-Aqua {   background-color: #00ffff; }
+.category--White, .btn-White {   background-color: #ffffff; }
+.category--Grey0, .btn-Grey0 {   background-color: #000000; }
+.category--NavyBlue, .btn-NavyBlue {   background-color: #00005f; }
+.category--DarkBlue, .btn-DarkBlue {   background-color: #000087; }
+.category--Blue3, .btn-Blue3 {   background-color: #0000af; }
+.category--Blue3, .btn-Blue3 {   background-color: #0000d7; }
+.category--Blue1, .btn-Blue1 {   background-color: #0000ff; }
+.category--DarkGreen, .btn-DarkGreen {   background-color: #005f00; }
+.category--DeepSkyBlue4, .btn-DeepSkyBlue4 {   background-color: #005f5f; }
+.category--DeepSkyBlue4, .btn-DeepSkyBlue4 {   background-color: #005f87; }
+.category--DeepSkyBlue4, .btn-DeepSkyBlue4 {   background-color: #005faf; }
+.category--DodgerBlue3, .btn-DodgerBlue3 {   background-color: #005fd7; }
+.category--DodgerBlue2, .btn-DodgerBlue2 {   background-color: #005fff; }
+.category--Green4, .btn-Green4 {   background-color: #008700; }
+.category--SpringGreen4, .btn-SpringGreen4 {   background-color: #00875f; }
+.category--Turquoise4, .btn-Turquoise4 {   background-color: #008787; }
+.category--DeepSkyBlue3, .btn-DeepSkyBlue3 {   background-color: #0087af; }
+.category--DeepSkyBlue3, .btn-DeepSkyBlue3 {   background-color: #0087d7; }
+.category--DodgerBlue1, .btn-DodgerBlue1 {   background-color: #0087ff; }
+.category--Green3, .btn-Green3 {   background-color: #00af00; }
+.category--SpringGreen3, .btn-SpringGreen3 {   background-color: #00af5f; }
+.category--DarkCyan, .btn-DarkCyan {   background-color: #00af87; }
+.category--LightSeaGreen, .btn-LightSeaGreen {   background-color: #00afaf; }
+.category--DeepSkyBlue2, .btn-DeepSkyBlue2 {   background-color: #00afd7; }
+.category--DeepSkyBlue1, .btn-DeepSkyBlue1 {   background-color: #00afff; }
+
+
+.btn-all {
+  background-color: white;
+}
+
+.category__list-item {
+  background-color: white;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flex-col {
+   display: flex;
+   flex-direction: column;
+}
+
+.flex-spread {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.circle{
+  border:1px solid grey;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  margin:0 0 0 1rem;
+}
+
